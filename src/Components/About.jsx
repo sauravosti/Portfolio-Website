@@ -1,6 +1,5 @@
 import {useState} from 'react'
 import React from 'react'
-//import myImage from "../assets/Untitled.png"
 import myCV from "../assets/SauravOstiCV.pdf"
 
 const About = () => {
@@ -30,12 +29,6 @@ const About = () => {
 <div className=" border-x-8 border-x-green-600 px-10">
  <div className="flex items-between gap-10 ">
   
-    {/* {myImage} */}
-  {/* <div  className=" w-full flex flex-wrap justify-start pb-2 px-40">
-        <img className='w-full flex justify-start '
-         src={aboutMe.myphoto} 
-        />
-  </div>   */}
   
    <div className=" w-full px-6 py-6 mb-5 space-x-15 space-y-15 flex justify-center items-center text-white gap-10 shadow-md shadow-white hover:scale-110 duration-200">
     <div className="space-y-3 w-2/2 ">
